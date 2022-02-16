@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +20,7 @@ body {
 }
 
 header {
-  background-color: rgb(245, 250, 245);
+  background-color: #FFF;
   height: auto;
   display: flex;
   padding-top: 15px;
@@ -51,6 +50,7 @@ section {
 p {
   font-size: 18px;
   margin-left: 20px;
+  font-weight: 400;
 }
 
 .menu-line {
