@@ -71,7 +71,7 @@ p {
 h1 {
   font-size: 40px;
   padding-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 20px;;
 }
 
 .work-section {
@@ -275,6 +275,7 @@ section {
 
 .para2 {
   margin: 0 25px;
+  font-weight: normal;
 }
 
 .connect {
@@ -287,7 +288,7 @@ section {
   margin-left: 25px;
   margin-bottom: 20px;
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .lang-dropper {
@@ -317,5 +318,4 @@ section {
 .footer-list {
   display: flex;
   flex-direction: column;
-}
 }
