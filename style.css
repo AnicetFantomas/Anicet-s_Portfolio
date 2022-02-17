@@ -234,7 +234,7 @@ section {
 .lang {
   width: 350px;
   height: 60px;
-  background-color: rgb(223, 243, 223);
+  background-color: #f7f7f9;
   margin: 20px;
   padding: 4px;
   border-radius: 7px;
@@ -259,7 +259,7 @@ section {
 
 .get {
   padding-bottom: 40px;
-  border: 2px solid blue;
+  border: 2px solid rgb(106, 106, 233);;
   height: 45px;
   width: 150px;
   border-radius: 10px;
@@ -281,7 +281,7 @@ section {
 .connect {
   margin-left: 25px;
   padding-top: 20px;
-  color: blue;
+  color: rgb(135, 135, 231);
 }
 
 .about-title {
