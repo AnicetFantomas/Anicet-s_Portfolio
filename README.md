@@ -3,7 +3,7 @@
 ## Description the project.
 
 ```
-In this project i learnt how to use and to design a website with CSS flex-box how to use use figmma, I enjoyed too again the use of linters, using git and github in a professional way
+In this project i learnt how to use and to design a website with CSS flex-box, css grid and again how to use use figmma, I enjoyed too again the use of linters and still undurstanding their main importance in programming, using git and github in a professional way
 
 ```
 
