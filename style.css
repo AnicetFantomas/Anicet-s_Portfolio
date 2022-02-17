@@ -19,6 +19,7 @@ body {
   background-size: cover;
   width: 100%;
   max-width: 500px;
+  min-width: 320px;
   padding-bottom: 90px;
   font-family: 'Poppins', sans-serif;
   padding-left: 30px;
