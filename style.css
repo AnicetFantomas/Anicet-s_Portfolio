@@ -217,6 +217,10 @@ a {
   margin: 20px;
 }
 
+.to-project:hover {
+  background-color: skyblue;
+}
+
 #footer-img {
   width: 20px;
   height: 20px;
@@ -238,6 +242,10 @@ section {
   align-items: center;
 }
 
+.lang img {
+  padding-right: 16px;
+}
+
 .frame {
   width: 350px;
   height: 60px;
@@ -246,6 +254,7 @@ section {
   padding: 4px;
   border-radius: 7px;
   font-weight: bold;
+  color: rgb(23, 43, 77);
 }
 
 .get {
@@ -258,6 +267,10 @@ section {
   color: rgb(106, 106, 233);
   font-weight: bold;
   padding: 10px 10px;
+}
+
+.get:hover {
+  background-color: skyblue;
 }
 
 .para2 {
@@ -280,9 +293,29 @@ section {
 .lang-dropper {
   margin-left: 25px;
   font-weight: bold;
+  color: rgb(23, 43, 77);
+}
+
+#dropBtn1 {
+  width: 20px;
+  height: 15px;
+  margin-top: 7px;
+  margin-left: 150px;
+}
+
+#dropBtn2 {
+  width: 15px;
+  height: 20px;
+  margin-top: 7px;
+  margin-left: 150px;
+}
+
+#span {
+  margin-right: 65px;
 }
 
 .footer-list {
   display: flex;
   flex-direction: column;
+}
 }
