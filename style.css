@@ -154,7 +154,7 @@ h1 {
 ul,
 li,
 a {
-  display: float;
+  display: flex;
   margin-top: 10px;
   margin-left: 10px;
   text-decoration: none;
