@@ -335,8 +335,7 @@ form ul {
 
 #name,
 #mail,
-#textarea,
-form button {
+#textarea {
   width: 350px;
   border-radius: 7px;
   border: none;
@@ -359,6 +358,7 @@ form button {
   border-radius: 7px;
   border: none;
   margin-bottom: 50px;
+  margin-left: 5px;
 }
 
 form button:enabled {
@@ -370,12 +370,18 @@ form button:enabled {
 form button:disabled {
   background: #fff;
   border: 1px solid  #6070ff;
-  color: rgb(23, 43, 77);
+  color: #727e93;
 }
 
 form button:hover {
   cursor: pointer;
-  background-color: skyblue;
+  background-color: #6d7cff;
+  color: #fff;
+}
+
+form button:hover:active{
+  background-color: #2230D2;
+  color: #fff;
 }
 
 .contact-title {
