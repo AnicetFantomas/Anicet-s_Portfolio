@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
   max-width: 500px;
   min-width: 320px;
   padding-bottom: 90px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding-left: 30px;
   margin-right: 30px;
 }
@@ -154,7 +154,7 @@ h1 {
 ul,
 li,
 a {
-  float: left;
+  display: flex;
   margin-top: 10px;
   margin-left: 10px;
   text-decoration: none;
@@ -319,4 +319,80 @@ section {
 .footer-list {
   display: flex;
   flex-direction: column;
+}
+
+.Contact-form {
+  background-color: #6070ff;
+  background-image: url("./images/headerBackgd.png");
+  background-size: cover;
+  border-radius: 60px 0 0 0;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#name,
+#mail,
+#textarea {
+  width: 350px;
+  border-radius: 7px;
+  border: none;
+  margin: 5px;
+  padding-left: 20px;
+}
+
+#textarea {
+  padding-top: 20px;
+}
+
+#name,
+#mail {
+  height: 40px;
+}
+
+form button {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 50px;
+  margin-left: 5px;
+}
+
+form button:enabled {
+  background: #fff;
+  border: 1px solid  #6070ff;
+  color: #6070ff;
+}
+
+form button:disabled {
+  background: #fff;
+  border: 1px solid  #6070ff;
+  color: #727e93;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #6d7cff;
+  color: #fff;
+}
+
+form button:hover:active{
+  background-color: #2230D2;
+  color: #fff;
+}
+
+.contact-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.contact-content {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
 }
