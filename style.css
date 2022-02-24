@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  background-image: url("./images/backgroundDesk.png");
+  background-image: url("./images/backgroundDesk.png"),url("./images/HeaderBck.jpg");
   background-size: cover;
   padding-bottom: 90px;
   font-family: 'Poppins', sans-serif;
@@ -330,8 +330,7 @@ section {
 }
 
 .Contact-form {
-  background-color: #6070ff;
-  background-image: url("./images/headerBackgd.png");
+  background-image: url("./images/ContactShapes.png"), url("./images/ContactFormBck.jpg");
   background-size: cover;
   border-radius: 60px 0 0 0;
   margin-top: 40px;
@@ -423,10 +422,8 @@ form button:hover:active{
     background-color: #f7f7f9;
   }
   .wrapper {
-    background-color: #fff;
-    background-image: url("./images/backgroundDesk.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
     width: 100%;
     margin: 0;
     align-self: center;
@@ -439,7 +436,6 @@ form button:hover:active{
 
   .desktop-nav{
     display: block;
-    color: rgb(23, 43, 77);
   }
 
   .p-desktop{
@@ -492,6 +488,14 @@ form button:hover:active{
     flex-direction: row;
   }
 
+  .order-1{
+    width: 40%;
+  }
+
+.order-2{
+  width: 60%;
+}
+
   .lang-dropper{
     width: 600px;
     display: flex;
@@ -506,6 +510,7 @@ form button:hover:active{
   }
 
   .Contact-form{
+    background-size: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
