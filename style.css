@@ -23,8 +23,8 @@ body {
   margin-right: 30px;
 }
 
+
 header {
-  background-color: #fff;
   height: auto;
   display: flex;
   padding-top: 15px;
@@ -231,11 +231,6 @@ a {
   height: 20px;
 }
 
-section {
-  background-color: #fff;
-  padding-top: 40px;
-}
-
 .lang {
   width: 350px;
   height: 60px;
@@ -290,6 +285,8 @@ section {
 }
 
 .About-section{
+  background-color: #fff;
+  padding-top: 40px;
   margin-top: 40px;
 }
 
@@ -332,7 +329,6 @@ section {
 .Contact-form {
   background-image: url("./images/ContactShapes.png"), url("./images/ContactFormBck.jpg");
   background-size: cover;
-  border-radius: 60px 0 0 0;
   margin-top: 40px;
 }
 
@@ -422,7 +418,7 @@ form button:hover:active{
     background-color: #f7f7f9;
   }
   .wrapper {
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
     margin: 0;
