@@ -15,11 +15,8 @@ body {
 }
 
 .wrapper {
-  background-image: url("./images/headerBackgd.png");
+  background-image: url("./images/backgroundDesk.png");
   background-size: cover;
-  width: 100%;
-  max-width: 500px;
-  min-width: 320px;
   padding-bottom: 90px;
   font-family: 'Poppins', sans-serif;
   padding-left: 30px;
@@ -69,6 +66,10 @@ p {
   margin-right: 20px;
 }
 
+.desktop-nav{
+  display: none;
+}
+
 h1 {
   font-size: 40px;
   padding-bottom: 20px;
@@ -103,7 +104,6 @@ h1 {
 .container2 {
   display: flex;
   flex-direction: column;
-  padding-bottom: 500px;
 }
 
 .container3 {
@@ -141,6 +141,10 @@ h1 {
   margin-left: 39px;
   margin: 20px;
   font-weight: bold;
+}
+
+#img-display{
+  display: none;
 }
 
 .point {
@@ -285,6 +289,10 @@ section {
   color: rgb(135, 135, 231);
 }
 
+.About-section{
+  margin-top: 40px;
+}
+
 .about-title {
   margin-left: 25px;
   margin-bottom: 20px;
@@ -326,6 +334,7 @@ section {
   background-image: url("./images/headerBackgd.png");
   background-size: cover;
   border-radius: 60px 0 0 0;
+  margin-top: 40px;
 }
 
 form ul {
@@ -395,4 +404,140 @@ form button:hover:active{
   color: #fff;
   text-align: center;
   padding-bottom: 30px;
+}
+
+
+/* -------------------Media queries------------------ */
+
+@media screen and (min-width : 992px){
+  body{
+    width: 100%;
+    display: flex;
+  }
+
+  .main-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #f7f7f9;
+  }
+  .wrapper {
+    background-color: #fff;
+    background-image: url("./images/backgroundDesk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    align-self: center;
+    border-radius: 0px 0px 0px 90px;
+  }
+
+  .head-lines{
+    padding: 150px;
+  }
+
+  .desktop-nav{
+    display: block;
+    color: rgb(23, 43, 77);
+  }
+
+  .p-desktop{
+    padding: 30px;
+  }
+
+  
+.menu-line{
+  display: none;
+}
+
+
+  .work-section {
+    background-size: 100%;
+    align-self: center;
+    width: 90%;
+    grid-template-columns: 950px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 460px;
+  }
+
+  .container2 .Card1{
+    order: 1;
+  }
+
+  .container4 .Card1{
+    order: 1;
+  }
+
+  .Card1 img{
+    width: 450px;
+    height: 400px;
+    margin: 10px;
+  }
+
+
+  #para1{
+    margin-top: 50px;
+  }
+
+  .About-section{
+    display: block;
+    width: 100%;
+    padding: 65px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lang-dropper{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .frame{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-content{
+    width: 400px;
+    color: rgb(245, 223, 223);
+  }
+  
+
+  .lang{
+    width: 130px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px 0px 20px;
+    margin: 7px;
+  }
+
+
+  form ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .lang-flex{
+    display: flex;
+    margin-left:20px;
+  }
+
 }
