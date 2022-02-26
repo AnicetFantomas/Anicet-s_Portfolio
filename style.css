@@ -119,6 +119,11 @@ h1 {
 .card1 {
   width: 350px;
   margin-top: 30px;
+  transition: transform ease-in-out .5s;
+}
+
+.card1:hover{
+  transform: scale(1.5) rotate(360deg);
 }
 
 .Card1 {
@@ -177,6 +182,7 @@ a {
 
 #html:hover {
   background-color: skyblue;
+  transition: all ease 2s;
 }
 
 .first-list {
@@ -197,6 +203,7 @@ a {
 
 #css:hover {
   background-color: skyblue;
+  transition: all ease 2s;
 }
 
 #javaScript {
@@ -210,6 +217,7 @@ a {
 
 #javaScript:hover {
   background-color: skyblue;
+  transition: all ease 2s;
 }
 
 .to-project {
@@ -271,6 +279,7 @@ a {
 
 .get:hover {
   background-color: skyblue;
+  transition: all ease 2s;
 }
 
 .para2 {
@@ -381,6 +390,7 @@ form button:hover {
   cursor: pointer;
   background-color: #6d7cff;
   color: #fff;
+  transition: all ease 2s;
 }
 
 form button:hover:active{
