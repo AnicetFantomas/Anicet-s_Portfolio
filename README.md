@@ -12,7 +12,7 @@ In this project i learnt how to use and to design a website with CSS flex-box, c
 - html
 - css
 
-
+## Getting Started
 ```
 git clone 
 
@@ -20,7 +20,7 @@ https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton.git
 
 ```
 
->>Deployment
+## Deployment
 
 [Access to my portfolio](https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/)
 
