@@ -360,6 +360,12 @@ form ul {
   padding-top: 20px;
 }
 
+textarea:hover, input:hover{
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+}
+
 #name,
 #mail {
   height: 40px;
