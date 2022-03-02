@@ -123,7 +123,7 @@ h1 {
 }
 
 .card1:hover{
-  transform: scale(1.5) rotate(360deg);
+  transform: scale(1.5);
 }
 
 .Card1 {
