@@ -66,8 +66,22 @@ p {
   margin-right: 20px;
 }
 
-.desktop-nav{
+.nav-btn{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.x-nav{
+  cursor: pointer;
   display: none;
+}
+
+.x-nav img{
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin: 15px;
 }
 
 h1 {
@@ -426,6 +440,10 @@ form button:hover:active{
     display: flex;
   }
 
+  .x-nav{
+    display: none;
+  }
+
   .main-wrapper{
     width: 100%;
     display: flex;
@@ -447,6 +465,7 @@ form button:hover:active{
   }
 
   .desktop-nav{
+    margin: 0;
     display: block;
   }
 
@@ -559,5 +578,34 @@ form button:hover:active{
     display: flex;
     margin-left:20px;
   }
+
+}
+
+@media screen and (max-width : 865px) {
+  .desktop-nav{
+    background-color: rgba(0, 0, 255, 0.438);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktop-nav ul{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+
+  .desktop-nav ul a{
+    color: white;
+    font-size: 32px;
+  }
+
 
 }

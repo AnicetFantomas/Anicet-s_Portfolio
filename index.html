@@ -2,10 +2,23 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XK5HJ5TBYT');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/439f1d2750.js" crossorigin="anonymous"></script>
     <title>Anicet's Portfolio</title>
 </head>
 
@@ -18,18 +31,23 @@
                 </div>
 
                 <nav class="desktop-nav">
+                    <div class="x-nav"><img src="./images/Xmark (2).png" alt=""></div>
                     <ul>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#ancre1">Portfolio</a></li>
+                        <li><a href="#ancre2">About</a></li>
+                        <li><a href="#ancre3">Contact</a></li>
                     </ul>
                 </nav>
 
-                <nav>
-                    <div class="menu-line"></div>
-                    <div class="menu-line"></div>
-                    <div class="menu-line"></div>
-                </nav>
+                <button class="nav-btn">
+                    <nav>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </nav>
+                </button>
+
+
             </header>
             <section class="head-lines">
                 <h1>I'm Anicet<br />Glad to see <br />you!</h1>
@@ -44,26 +62,27 @@
                 <div class="connect"><a href="">LET'S CONNECT</a></div>
                 <ul>
                     <li>
-                        <a href=""><img src="./images/twiter.png" alt="here is the link to twitter"/></a>
+                        <a href=""><img src="./images/twiter.png" alt="here is the link to twitter" /></a>
                     </li>
                     <li>
-                        <a href=""><img src="./images/linkedin.jpeg" alt="here is the link to linkedin"/></a>
+                        <a href=""><img src="./images/linkedin.jpeg" alt="here is the link to linkedin" /></a>
                     </li>
                     <li>
-                        <a href=""> <img src="./images/Muliti.png"  alt="here is the link to Muliti"/></a>
+                        <a href=""> <img src="./images/Muliti.png" alt="here is the link to Muliti" /></a>
                     </li>
                     <li>
-                        <a href=""><img src="./images/github.png" alt="here is the link to github"/></a>
+                        <a href=""><img src="./images/github.png" alt="here is the link to github" /></a>
                     </li>
                     <li>
-                        <a href=""><img src="./images/sign.png" alt="here is the link to angellist"/></a>
+                        <a href=""><img src="./images/sign.png" alt="here is the link to angellist" /></a>
                     </li>
                 </ul>
             </section>
         </div>
-        <div class="work-section">
+        <div class="work-section" id="ancre1">
             <div class="container container1">
-                <div class="Card1"><img src="images/img5.png" alt="here your the price 35$ for a day at our park" class="card1"></div>
+                <div class="Card1"><img src="images/img5.png" alt="here your the price 35$ for a day at our park"
+                        class="card1"></div>
 
                 <div class="p-desktop">
                     <div>
@@ -89,7 +108,8 @@
             </div>
             <div class="container container2">
 
-                <div class="Card1"><img src="./images/img4.png"  alt="here is an image of art printing" class="card1"/></div>
+                <div class="Card1"><img src="./images/img4.png" alt="here is an image of art printing" class="card1" />
+                </div>
                 <div class="p-desktop">
                     <div>
                         <h2>Multi-Post Stories</h2>
@@ -116,7 +136,8 @@
 
 
             <div class="container container3">
-                <div class="Card1"><img src="./images/img1.png" alt="Here is the Facebook product designer Tenner Christemen" class="card1"></div>
+                <div class="Card1"><img src="./images/img1.png"
+                        alt="Here is the Facebook product designer Tenner Christemen" class="card1"></div>
 
                 <div class="p-desktop">
                     <div>
@@ -142,7 +163,8 @@
                 </div>
             </div>
             <div class="container container4">
-                <div class="Card1"><img src="images/im2.png" alt="Here is our assistant for uber Navigation facilities" class="card1"></div>
+                <div class="Card1"><img src="images/im2.png" alt="Here is our assistant for uber Navigation facilities"
+                        class="card1"></div>
 
                 <div class="p-desktop">
                     <div>
@@ -169,7 +191,7 @@
             </div>
         </div>
 
-        <section class="About-section">
+        <section class="About-section" id="ancre2">
             <div class="order-1">
                 <div class="about-title">About <br> Myself</div>
                 <p class="para2">Hello I'm a software developer I can help you build a product, feature or website
@@ -178,11 +200,11 @@
                     <div class="connect">LET'S CONNECT</div>
                 </p>
                 <ul>
-                    <li><a href=""><img src="./images/github.png" alt="here is the link to github"/></a></li>
+                    <li><a href=""><img src="./images/github.png" alt="here is the link to github" /></a></li>
                     <li><a href=""><img src="./images/linkedin.jpeg" alt="here is the link to linkedin" /></a></li>
                     <li><a href=""><img src="./images/sign.png" alt="here is the link to angellist" /></a></li>
                     <li><a href=""><img src="./images/twiter.png" alt="here is the link to twitter" /></a></li>
-                    <li><a href=""> <img src="./images/Muliti.png" alt="here is the link to Muliti"/></a></li>
+                    <li><a href=""> <img src="./images/Muliti.png" alt="here is the link to Muliti" /></a></li>
                 </ul>
 
                 <div class="get">Get my resume</div>
@@ -190,7 +212,8 @@
             <div class="order-2">
                 <ul>
                     <li>
-                        <div class="lang-dropper">Languages <img src="./images/dropBtn.png" id="dropBtn1" alt="here is an drop-down icon">
+                        <div class="lang-dropper">Languages <img src="./images/dropBtn.png" id="dropBtn1"
+                                alt="here is an drop-down icon">
                         </div>
                     </li>
                 </ul>
@@ -203,7 +226,8 @@
 
                 <ul class="footer-list">
                     <li>
-                        <div class="frame">Frameworks <img src="./images/dropBtn2.png" id="dropBtn2" alt="here is an drop-down icon"></div>
+                        <div class="frame">Frameworks <img src="./images/dropBtn2.png" id="dropBtn2"
+                                alt="here is an drop-down icon"></div>
                     </li>
                     <li>
                         <div class="frame"><span id="span">Skills</span><img src="./images/dropBtn2.png" id="dropBtn2"
@@ -214,7 +238,7 @@
 
         </section>
 
-        <footer class="Contact-form">
+        <footer class="Contact-form" id="ancre3">
             <div class="contact-title">Contact me</div>
             <div class="contact-content">
                 If you have an application you are interested in
@@ -223,17 +247,19 @@
             </div>
             <form action="https://formspree.io/f/xvolalez" method="post">
                 <ul>
-                    <li><label for="for-name"></label><input type="text" name="for-name" id="name" placeholder="Put your name" maxlength="30"
-                            required></li>
-                    <li><label for="for-mail"></label><input type="email" name="for-mail" id="mail" placeholder="put your adress email" required>
+                    <li><label for="for-name"></label><input type="text" name="for-name" id="name"
+                            placeholder="Put your name" maxlength="30" required></li>
+                    <li><label for="for-mail"></label><input type="email" name="for-mail" id="mail"
+                            placeholder="put your adress email" required>
                     </li>
-                    <li><label for="for-text"></label><textarea name="for-text" id="textarea" maxlength="500" cols="30" rows="10"
-                            placeholder="Write your message here" required></textarea></li>
+                    <li><label for="for-text"></label><textarea name="for-text" id="textarea" maxlength="500" cols="30"
+                            rows="10" placeholder="Write your message here" required></textarea></li>
                     <li><button>Get it Touch</button></li>
                 </ul>
             </form>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
