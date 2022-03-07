@@ -465,6 +465,7 @@ form button:hover:active{
   }
 
   .desktop-nav{
+    margin: 0;
     display: block;
   }
 
@@ -582,25 +583,28 @@ form button:hover:active{
 
 @media screen and (max-width : 865px) {
   .desktop-nav{
-    background-color: #0617b652;
+    background-color: rgba(0, 0, 255, 0.438);
     backdrop-filter: blur(10px);
     position: absolute;
+    position: fixed;
     right: 0;
+    top: 0;
     display: none;
     width: 100%;
     height: 100%;
   }
 
   .desktop-nav ul{
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 30px;
     margin-top: 30px;
   }
 
   .desktop-nav ul a{
     color: white;
+    font-size: 32px;
   }
 
 
