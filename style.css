@@ -66,8 +66,22 @@ p {
   margin-right: 20px;
 }
 
-.desktop-nav{
+.nav-btn{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.x-nav{
+  cursor: pointer;
   display: none;
+}
+
+.x-nav img{
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin: 15px;
 }
 
 h1 {
@@ -426,6 +440,10 @@ form button:hover:active{
     display: flex;
   }
 
+  .x-nav{
+    display: none;
+  }
+
   .main-wrapper{
     width: 100%;
     display: flex;
@@ -559,5 +577,31 @@ form button:hover:active{
     display: flex;
     margin-left:20px;
   }
+
+}
+
+@media screen and (max-width : 865px) {
+  .desktop-nav{
+    background-color: #0617b652;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .desktop-nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .desktop-nav ul a{
+    color: white;
+  }
+
 
 }
