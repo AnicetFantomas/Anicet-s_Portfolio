@@ -38,8 +38,8 @@ const details = [
     Technologies: [
       'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: "https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/",
-    linkTosource: "https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings",
+    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
+    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
 
     fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
   },
@@ -51,8 +51,8 @@ const details = [
     Technologies: [
       'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: "https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/",
-    linkTosource: "https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings",
+    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
+    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
     fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
   },
 
@@ -63,8 +63,8 @@ const details = [
     Technologies: [
       'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: "https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/",
-    linkTosource: "https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings",
+    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
+    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
     fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
   },
 
@@ -75,8 +75,8 @@ const details = [
     Technologies: [
       'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: "https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/",
-    linkTosource: "https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings",
+    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
+    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
     fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
   },
 ];
@@ -117,7 +117,7 @@ const containerPopUp = document.querySelector('.popup-container');
 
 function openPopup(index) {
   const div = document.createElement('div');
-  div.className = "main-for-pop-up";
+  div.className = 'main-for-pop-up';
   div.innerHTML = ` <div class="main-for-pop-up")>
          <div class="pop-up-window">
             <div class"for-heading">
@@ -170,16 +170,10 @@ getSeeBtn.forEach((btn, index) => {
   });
 });
 
-
-
-
-
 const closeBtn = document.querySelector('#closeBtn');
-
 
 function closePopUp(){
   containerPopUp.classList.add('display-none');
 }
 
-closeBtn.addEventListener('click', closePopUp);
-  
+closeBtn.addEventListener ('click', closePopUp );
