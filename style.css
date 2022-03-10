@@ -233,7 +233,6 @@ a {
   width: 120px;
   display: flex;
   align-items: center;
-  display: inline-block;
 }
 
 .javaScript-btn:hover {
@@ -287,7 +286,6 @@ a {
 }
 
 .get {
-  padding-bottom: 40px;
   border: 2px solid #865ae5;
   height: 45px;
   width: 150px;
@@ -464,18 +462,6 @@ form button:hover:active {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  display: block;
-  margin: 0 auto;
-}
-
-#closeBtn {
-  width: 40px;
-  height: 40px;
-  float: right;
-  position: relative;
-  bottom: 60px;
-  right: 20px;
-  cursor: pointer;
 }
 
 #closeBtn {
@@ -488,7 +474,6 @@ form button:hover:active {
   cursor: pointer;
   z-index: 1017;
 }
-
 
 .pop-up-window h2 {
   margin-top: 20px;
@@ -527,7 +512,6 @@ form button:hover:active {
   width: 85px;
   display: flex;
   align-items: center;
-  display: inline-block;
 }
 
 .github-btn:hover {
@@ -543,7 +527,6 @@ form button:hover:active {
   width: 70px;
   display: flex;
   align-items: center;
-  display: inline-block;
 }
 
 .ruby-btn:hover {
@@ -559,7 +542,6 @@ form button:hover:active {
   width: 110px;
   display: flex;
   align-items: center;
-  display: inline-block;
 }
 
 .bootstrap-btn:hover {
@@ -572,11 +554,6 @@ form button:hover:active {
   margin-top: 40px;
 }
 
-.see-live:hover {
-  background-color: skyblue;
-  transition: all ease 2s;
-}
-
 .see-live {
   border: 1px solid blue;
   height: 45px;
@@ -585,7 +562,11 @@ form button:hover:active {
   margin: 10px;
   display: flex;
   align-items: center;
-  display: inline-block;
+}
+
+.see-live:hover {
+  background-color: skyblue;
+  transition: all ease 2s;
 }
 
 .see-live img {
@@ -679,7 +660,6 @@ form button:hover:active {
   }
 
   .About-section {
-    display: block;
     width: 100%;
     padding: 65px;
     display: flex;
@@ -720,10 +700,6 @@ form button:hover:active {
     color: rgb(245, 223, 223);
   }
 
-   {
-    display: none;
-  }
-
   .lang {
     width: 130px;
     height: 100px;
@@ -744,7 +720,6 @@ form button:hover:active {
     display: flex;
     margin-left: 20px;
   }
-
 }
 
 @media screen and (max-width: 865px) {
@@ -791,18 +766,6 @@ form button:hover:active {
   .for-icon img {
     width: 25px;
     height: 25px;
-    margin-topx: 0;
+    margin-top: 0;
   }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
