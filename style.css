@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
@@ -477,6 +478,18 @@ form button:hover:active {
   cursor: pointer;
 }
 
+#closeBtn {
+  width: 5%;
+  position: fixed;
+  top: 9%;
+  left: 73%;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 1017;
+}
+
+
 .pop-up-window h2 {
   margin-top: 20px;
   font-size: 40px;
@@ -731,6 +744,7 @@ form button:hover:active {
     display: flex;
     margin-left: 20px;
   }
+
 }
 
 @media screen and (max-width: 865px) {
@@ -780,3 +794,15 @@ form button:hover:active {
     margin-topx: 0;
   }
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

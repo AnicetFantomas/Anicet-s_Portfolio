@@ -126,7 +126,6 @@ function openPopup(index) {
          <div class="pop-up-window">
             <div class"for-heading">
              <h2>${details[index].name}</h2>
-             <img id="closeBtn" src="images/exitIcon.png" alt=This button will close the pop-up window">
             </div>
              <div class="lister">
                  <p><strong>CANOPY</strong></p>
@@ -179,13 +178,12 @@ getSeeBtn.forEach((btn, index) => {
 
 
 
-const closeBtn = document.querySelectorAll('#closeBtn');
+const closeBtn = document.querySelector('#closeBtn');
 
-closeBtn.forEach(closePopWindow => {
-  function closepopUp() {
-    containerPopUp.classList.add('display-none');
-  }
 
-  closeBtn.addEventListener('click', closepopUp);
-})
+function closePopUp(){
+  containerPopUp.classList.add('display-none');
+}
 
+closeBtn.addEventListener('click', closePopUp);
+  
