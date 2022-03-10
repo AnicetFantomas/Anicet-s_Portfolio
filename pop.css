@@ -1,0 +1,113 @@
+
+.main-for-pop-up{
+    background-color: rgba(0, 0, 255, 0.438);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+
+.pop-up-window{
+    background-color: #fff;
+    width: 85%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(109, 131, 109);
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .pop-up-window h2{
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  
+  .for-img img {
+    width: 100%;
+  }
+  
+  .for-img{
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .for-para p{
+    font-size: 20px;
+  }
+  
+  .for-tech-para{
+    display: flex;
+    align-items: flex-start;
+    padding: 80px 0px;
+  }
+  
+  .for-technologies{
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  
+  .github-btn{
+    background-color: #ebebebff;
+    height: 33px;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+  }
+  
+  .ruby-btn {
+    background-color: #ebebebff;
+    height: 33px;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+  }
+  
+  .bootstrap-btn{
+    background-color: #ebebebff;
+    height: 33px;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+  }
+  
+  
+  .for-live{
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  .see-live{
+    border: 1px solid blue;
+    height: 45px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+  }
+  
+  .see-live img{
+    margin-left: 8px;
+  }
+  
+  .see-item2{
+    width: 170px;
+  }
+  
+  .githubBlue{
+    width: 25px;
+    height: 25px;
+  }

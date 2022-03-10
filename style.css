@@ -185,16 +185,18 @@ a {
   color: rgb(83, 83, 206);
 }
 
-#html {
+.html-btn {
   width: 70px;
   background-color: #ebebebff;
-  padding-bottom: 40px;
-  height: 33px;
+  height: 33px; 
+  padding-left: 10px;
   border-radius: 10px;
-  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
 }
 
-#html:hover {
+.html-btn:hover {
   background-color: skyblue;
   transition: all ease 2s;
 }
@@ -206,42 +208,47 @@ a {
   padding-bottom: 40px;
 }
 
-#css {
+.css-btn {
   width: 50px;
   background-color: #ebebebff;
-  padding-bottom: 40px;
   height: 33px;
+  padding-left: 10px;
   border-radius: 10px;
-  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
 }
 
-#css:hover {
+.css-btn:hover {
   background-color: skyblue;
   transition: all ease 2s;
 }
 
-#javaScript {
+.javaScript-btn {
   background-color: #ebebebff;
-  padding-bottom: 40px;
   height: 33px;
   border-radius: 10px;
-  padding-bottom: 40px;
+  padding-left: 10px;
   width: 120px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
 }
 
-#javaScript:hover {
+.javaScript-btn:hover {
   background-color: skyblue;
   transition: all ease 2s;
 }
 
 .to-project {
-  padding-bottom: 40px;
   border: 1px solid blue;
   height: 45px;
   width: 140px;
   border-radius: 10px;
-  padding-bottom: 40px;
   margin: 20px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
 }
 
 .to-project:hover {
@@ -431,6 +438,156 @@ form button:hover:active{
   padding-bottom: 30px;
 }
 
+/* ---------------------- pop-up-window --------------------------------- */
+
+
+.main-for-pop-up{
+  background-color: rgba(0, 0, 255, 0.438);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+  padding-top: 50px ;
+}
+
+.pop-up-window{
+  background-color: #fff;
+  width: 75%;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid rgb(109, 131, 109);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.for-icon img{
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 50px 50px 0px 0px;
+  cursor: pointer;
+}
+
+.pop-up-window h2{
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.for-img img {
+  width: 100%;
+}
+
+.for-img{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.for-para p{
+  font-size: 15px;
+}
+
+.for-tech-para{
+  display: flex;
+  align-items: flex-start;
+  padding: 50px 0px;
+}
+
+.for-technologies{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+
+.github-btn{
+  background-color: #ebebebff;
+  height: 33px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 85px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+}
+
+.github-btn:hover{
+  background-color: skyblue;
+  transition: all ease 2s;
+}
+
+.ruby-btn {
+  background-color: #ebebebff;
+  height: 33px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+}
+
+.ruby-btn:hover{
+  background-color: skyblue;
+  transition: all ease 2s;
+}
+
+.bootstrap-btn{
+  background-color: #ebebebff;
+  height: 33px;
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+}
+
+.bootstrap-btn:hover{
+  background-color: skyblue;
+  transition: all ease 2s;
+}
+
+
+.for-live{
+  display: flex;
+  margin-top: 40px;
+}
+
+.see-live:hover{
+  background-color: skyblue;
+  transition: all ease 2s;
+}
+.see-live{
+  border: 1px solid blue;
+  height: 45px;
+  width: 140px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  display: inline-block;
+}
+
+.see-live img{
+  margin-left: 8px;
+}
+
+.see-item2{
+  width: 170px;
+}
+
+.githubBlue{
+  width: 25px;
+  height: 25px;
+} 
 
 /* -------------------Media queries------------------ */
 
@@ -608,4 +765,25 @@ form button:hover:active{
   }
 
 
+  .for-tech-para{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .for-technologies ul:nth-child(2){
+    display: none;
+  }
+
+  .for-live{
+    position: relative;
+    right: 15px;
+    left: 15px;
+  }
+
+  
+.for-icon img{
+  width: 25px;
+  height: 25px;
+  margin-topx: 0;
+}
 }
