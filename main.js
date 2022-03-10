@@ -172,7 +172,7 @@ getSeeBtn.forEach((btn, index) => {
 
 const closeBtn = document.querySelector('#closeBtn');
 
-function closePopUp () {
+function closePopUp() {
   containerPopUp.classList.add('display-none');
 }
 
