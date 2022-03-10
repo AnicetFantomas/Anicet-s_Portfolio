@@ -55,9 +55,6 @@
   border-radius: 10px;
   padding-left: 10px;
   width: 85px;
-  display: flex;
-  align-items: center;
-  display: inline-block;
 }
 
 .ruby-btn {
@@ -66,9 +63,6 @@
   border-radius: 10px;
   padding-left: 10px;
   width: 70px;
-  display: flex;
-  align-items: center;
-  display: inline-block;
 }
 
 .bootstrap-btn {
@@ -77,9 +71,6 @@
   border-radius: 10px;
   padding-left: 10px;
   width: 110px;
-  display: flex;
-  align-items: center;
-  display: inline-block;
 }
 
 .for-live {
@@ -93,9 +84,6 @@
   width: 140px;
   border-radius: 10px;
   margin: 10px;
-  display: flex;
-  align-items: center;
-  display: inline-block;
 }
 
 .see-live img {
