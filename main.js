@@ -32,7 +32,6 @@ listEl.forEach(
 
 const details = [
   {
-    id: 1,
     Image: 'images/img5.png',
     name: 'Tonic',
     Description: 'A daily selection of privately personalized roads; no accounts or sign-up required.',
@@ -46,7 +45,6 @@ const details = [
   },
 
   {
-    id: 2,
     Image: 'images/img4.png',
     name: 'Multi-Post Stories',
     Description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
@@ -59,7 +57,6 @@ const details = [
   },
 
   {
-    id: 3,
     Image: 'images/img1.png',
     name: 'Facebook 360',
     Description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
@@ -72,7 +69,6 @@ const details = [
   },
 
   {
-    id: 4,
     Image: 'images/im2.png',
     name: 'Multi-Post Stories',
     Description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
@@ -89,7 +85,7 @@ const details = [
 
 details.forEach((card) => {
   document.querySelector('.work-section').innerHTML += ` 
-     <div class="container container1" id="${card.id}" > 
+     <div class="container container1" > 
      <div class="Card1"><img src="${card.Image}" alt="here is an image of art printing" class="card1" />
      </div>
      <div class="p-desktop ">

@@ -338,6 +338,13 @@ a {
   margin-left: 150px;
 }
 
+#dropBtn02 {
+  width: 15px;
+  height: 20px;
+  margin-top: 7px;
+  margin-left: 150px;
+}
+
 #dropBtn2 {
   width: 15px;
   height: 20px;
@@ -462,6 +469,7 @@ form button:hover:active {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  position: relative;
 }
 
 #closeBtn {

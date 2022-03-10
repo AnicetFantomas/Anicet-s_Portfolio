@@ -2,18 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            window.dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-XK5HJ5TBYT');
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +20,7 @@
                 </div>
 
                 <nav class="desktop-nav">
-                    <div class="x-nav"><img src="./images/Xmark (2).png" alt=""></div>
+                    <div class="x-nav"><img src="./images/Xmark.png" alt=""></div>
                     <ul>
                         <li><a href="#ancre1">Portfolio</a></li>
                         <li><a href="#ancre2">About</a></li>
@@ -40,15 +28,13 @@
                     </ul>
                 </nav>
 
-                <button class="nav-btn">
-                    <nav>
+                <div class="nav-btn">
                         <div class="menu-line"></div>
                         <div class="menu-line"></div>
                         <div class="menu-line"></div>
-                    </nav>
-                </button>
+                </div>
             </header>
-            <section class="head-lines">
+        <section class="head-lines">
                 <h1>I'm Anicet<br />Glad to see <br />you!</h1>
                 <p>
                     I'm a software developer I can help you build a product, feature
@@ -82,17 +68,17 @@
         <div class="work-section" id="ancre1">
         </div>
         <div class="popup-container display-none">
-            <img id="closeBtn" src="images/exitIcon.png" alt=This button will close the pop-up window">
+            <img id="closeBtn" src="images/exitIcon.png" alt="This button will close the pop-up window">
         </div>
 
         <section class="About-section" id="ancre2">
             <div class="order-1">
-                <div class="about-title">About <br> Myself</div>
+                <h2 class="about-title">About <br> Myself</h2>
                 <p class="para2">Hello I'm a software developer I can help you build a product, feature or website
                     look through some of my work and experience! if you like what you see and havd a Project
-                    you need coded, don't hesitate to contact me.
+                    you need coded, don't hesitate to contact me.</p>
                     <div class="connect">LET'S CONNECT</div>
-                </p>
+                
                 <ul>
                     <li><a href=""><img src="./images/github.png" alt="here is the link to github" /></a></li>
                     <li><a href=""><img src="./images/linkedin.jpeg" alt="here is the link to linkedin" /></a></li>
@@ -106,7 +92,7 @@
             <div class="order-2">
                 <ul>
                     <li>
-                        <div class="lang-dropper">Languages <img src="./images/dropBtn.png" id="dropBtn1"
+                        <div class="lang-dropper"><p>Languages</p><img src="./images/dropBtn.png" id="dropBtn1"
                                 alt="here is an drop-down icon">
                         </div>
                     </li>
@@ -124,7 +110,7 @@
                                 alt="here is an drop-down icon"></div>
                     </li>
                     <li>
-                        <div class="frame"><span id="span">Skills</span><img src="./images/dropBtn2.png" id="dropBtn2"
+                        <div class="frame"><span id="span">Skills</span><img src="./images/dropBtn2.png" id="dropBtn02"
                                 alt="here is an drop-down icon"></div>
                     </li>
                 </ul>
@@ -136,24 +122,22 @@
             <div class="contact-content">
                 If you have an application you are interested in
                 developing, a feature that you
-                need built or a project that needs coding. I’d love to help with it
+                need built or a project that needs coding. I'll do love to help with it
             </div>
             <form action="https://formspree.io/f/xvolalez" method="post">
                 <ul>
-                    <li><label for="for-name"></label><input type="text" name="for-name" id="name"
+                    <li><label for="name"></label><input type="text" name="for-name" id="name"
                             placeholder="Put your name" maxlength="30" required></li>
-                    <li><label for="for-mail"></label><input type="email" name="for-mail" id="mail"
+                    <li><label for="mail"></label><input type="email" name="for-mail" id="mail"
                             placeholder="put your adress email" required>
                     </li>
-                    <li><label for="for-text"></label><textarea name="for-text" id="textarea" maxlength="500" cols="30"
+                    <li><label for="textarea"></label><textarea name="for-text" id="textarea" maxlength="500" cols="30"
                             rows="10" placeholder="Write your message here" required></textarea></li>
-                    <li><button>Get it Touch</button></li>
+                    <li><button type="button">Get it Touch</button></li>
                 </ul>
             </form>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
-
-<script src="main.js"></script>
-
 </html>
