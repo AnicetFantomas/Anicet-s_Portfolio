@@ -164,8 +164,7 @@ h2 {
   display: flex;
   font-weight: bold;
   margin-top: 30px;
-  margin-bottom: 20px; 
-
+  margin-bottom: 20px;
 }
 
 #img-display {
@@ -457,8 +456,8 @@ form button:hover:active {
   padding: 0;
 }
 
-
 /* ---------------------- pop-up-window --------------------------------- */
+
 .main-for-pop-up {
   background-color: rgba(177, 177, 199, 0.438);
   backdrop-filter: blur(5px);
@@ -517,10 +516,6 @@ form button:hover:active {
   margin: 0 auto;
 }
 
-.for-para p {
-  font-size: 15px;
-}
-
 .for-tech-para {
   display: flex;
   align-items: flex-start;
@@ -532,7 +527,7 @@ form button:hover:active {
   margin-right: 30px;
 }
 
-hr{
+hr {
   margin-top: 40px;
   width: 90%;
   margin-left: 10px;
@@ -756,7 +751,6 @@ hr{
     margin-left: 20px;
   }
 
-  
   #buttonForClose {
     left: 90%;
   }
@@ -809,25 +803,11 @@ hr{
     margin-top: 0;
   }
 
-  .pop-up-window .lister p{
+  .pop-up-window .lister p {
     margin-bottom: 15px;
   }
 
-  
-  .pop-up-window .lister p:nth-child(){
-    color: rgb(233, 222, 222);
-  }
-
-  .pop-up-window .lister p:nth-child(3){
-    color: rgb(233, 222, 222);
-  }
-
-  .for-technologies ul {
-    position: relative;
-    right: 25px;
-  }
-
-  .for-para p {
+  .pop-up-window .for-para p {
     font-size: 18px;
     margin-right: 20px;
   }
