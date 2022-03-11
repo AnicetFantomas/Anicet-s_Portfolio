@@ -114,7 +114,7 @@ Array.from(mainWorkSection.children).forEach((child, index) => {
       <div class="to-project"><a href="#">See Project</a></div>
   </div>
       </div>
-         `
+         `;
 });
 
 Array.from(mainWorkSection.children).forEach((item, index) => {
@@ -173,6 +173,6 @@ Array.from(mainWorkSection.children).forEach((item, index) => {
           PopUpModal.style.display = 'none';
         }
       });
-    }
-  )
-},);
+    },
+  );
+});
