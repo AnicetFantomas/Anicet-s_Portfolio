@@ -122,6 +122,7 @@ function openPopup(index) {
          <div class="pop-up-window">
             <div class"for-heading">
              <h2>${details[index].name}</h2>
+             <button type = "button" id= "buttonForClose">&times;</button>
             </div>
              <div class="lister">
                  <p><strong>CANOPY</strong></p>
@@ -148,7 +149,7 @@ function openPopup(index) {
                          <li class="ruby-btn ">${details[index].Technologies[4]}</li><a href="#"></a></li>
                          <li class="bootstrap-btn">${details[index].Technologies[5]}<a href="#"></a></li>
                      </ul>
-     
+                      <hr>
                      <div class="for-live">
                          <div class="see-live"><a href="${details[index].linkTolive}">See live <img src="./images/ExportIcon.svg"
                                      alt=""></a></div>
