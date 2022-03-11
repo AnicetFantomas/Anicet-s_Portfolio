@@ -1,11 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: poppins, sans-serif;
 }
 
 body {
@@ -13,10 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.display-none {
-  display: none;
 }
 
 .wrapper {
@@ -89,6 +83,9 @@ p {
 }
 
 h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-style: normal;
   font-size: 40px;
   padding-bottom: 20px;
   margin-left: 20px;
@@ -163,8 +160,7 @@ h2 {
 .lister {
   display: flex;
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px 30px 0 0;
 }
 
 #img-display {
@@ -193,6 +189,7 @@ a {
 .html-btn {
   width: 70px;
   background-color: #ebebebff;
+  font-weight: 500;
   height: 33px;
   padding-left: 10px;
   border-radius: 10px;
@@ -214,6 +211,7 @@ a {
 .css-btn {
   width: 50px;
   background-color: #ebebebff;
+  font-weight: 500;
   height: 33px;
   padding-left: 10px;
   border-radius: 10px;
@@ -228,6 +226,7 @@ a {
 
 .javaScript-btn {
   background-color: #ebebebff;
+  font-weight: 500;
   height: 33px;
   border-radius: 10px;
   padding-left: 10px;
@@ -242,7 +241,7 @@ a {
 }
 
 .to-project {
-  border: 1px solid blue;
+  border: 2px solid rgb(132, 132, 190);
   height: 45px;
   width: 140px;
   border-radius: 10px;
@@ -308,6 +307,7 @@ a {
 }
 
 .connect {
+  font-weight: normal;
   margin-left: 25px;
   padding-top: 20px;
   color: #865ae5;
@@ -323,7 +323,7 @@ a {
   margin-left: 25px;
   margin-bottom: 20px;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .lang-dropper {
@@ -337,6 +337,7 @@ a {
   height: 15px;
   margin-top: 7px;
   margin-left: 150px;
+  font-weight: bold;
 }
 
 #dropBtn02 {
@@ -434,6 +435,7 @@ form button:hover:active {
 
 .contact-title {
   color: #fff;
+  font-weight: bold;
   text-align: center;
   font-size: 40px;
   padding-top: 30px;
@@ -450,10 +452,11 @@ form button:hover:active {
   background: none;
   font-size: 40px;
   position: relative;
-  left: 80%;
+  left: 90%;
   bottom: 50px;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 /* ---------------------- pop-up-window --------------------------------- */
@@ -489,17 +492,7 @@ form button:hover:active {
   position: relative;
   right: 30px;
   bottom: 20px;
-}
-
-#closeBtn {
-  width: 5%;
-  position: fixed;
-  top: 9%;
-  left: 73%;
-  bottom: 0;
-  right: 0;
-  cursor: pointer;
-  z-index: 1017;
+  left: 15px;
 }
 
 .pop-up-window h2 {
@@ -643,6 +636,7 @@ hr {
 
   .head-lines {
     padding: 150px;
+    font-weight: bold;
   }
 
   .desktop-nav {
@@ -767,6 +761,12 @@ hr {
     display: none;
     width: 100%;
     height: 100%;
+  }
+
+  .contact-content {
+    width: 250px;
+    color: rgb(245, 223, 223);
+    margin: 0 auto;
   }
 
   .desktop-nav ul {
