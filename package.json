@@ -1,9 +1,33 @@
 {
   "devDependencies": {
-    "hint": "^6.1.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.10",
+    "install": "^0.13.0",
+    "npm": "^8.5.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "name": "setup-and-mobile-version-skeleton",
+  "description": "If you are not familiar with linters, read [root level README](../README.md).",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/issues"
+  },
+  "homepage": "https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton#readme"
 }
