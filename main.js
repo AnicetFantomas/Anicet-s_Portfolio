@@ -28,9 +28,7 @@ listEl.forEach(
   },
 );
 
-//---------------- User validation form -------------------
-
-
+// popa-up-window
 
 const details = [
   {
@@ -171,11 +169,10 @@ Array.from(mainWorkSection.children).forEach((item, index) => {
         PopUpModal.style.display = 'none';
       });
       window.addEventListener('click', (e) => {
-        if (e.target === portfolioModal) {
+        if (e.target === PopUpModal) {
           PopUpModal.style.display = 'none';
         }
       });
-
     }
-  );
-});
+  )
+},);
