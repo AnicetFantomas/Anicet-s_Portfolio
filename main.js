@@ -176,3 +176,22 @@ Array.from(mainWorkSection.children).forEach((item, index) => {
     },
   );
 });
+
+// User validation
+
+const getForm = document.querySelector('#form');
+const getEmail = document.querySelector('#mail');
+const invalidMessage = document.querySelector('#form-Message');
+
+getForm.addEventListener('submit', (event) => {
+  if (getEmail.value !== getEmail.value.toLowerCase()) {
+    event.preventDefault();
+    invalidMessage.style.visibility = 'visible';
+    invalidMessage.style.transition = '0.5s ease';
+    setTimeout(() => {
+      invalidMessage.style.visibility = 'hidden';
+    }, 5000);
+  } else {
+    invalidMessage.style.visibility = 'hidden';
+  }
+});

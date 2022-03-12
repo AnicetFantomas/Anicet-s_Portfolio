@@ -29,12 +29,12 @@
                 </nav>
 
                 <div class="nav-btn">
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
                 </div>
             </header>
-        <section class="head-lines">
+            <section class="head-lines">
                 <h1>I'm Anicet<br />Glad to see <br />you!</h1>
                 <p>
                     I'm a software developer I can help you build a product, feature
@@ -64,14 +64,14 @@
                 </ul>
             </section>
         </div>
-         
-            <section class="work-section" id="ancre1">
-                <section id="project-1"></section>
-                <section id="project-2"></section>
-                <section id="project-3"></section>
-                <section id="project-4"></section>
-            </section>
-            <section id="portfolio-modal" class="modal"></section>
+
+        <section class="work-section" id="ancre1">
+            <section id="project-1"></section>
+            <section id="project-2"></section>
+            <section id="project-3"></section>
+            <section id="project-4"></section>
+        </section>
+        <section id="portfolio-modal" class="modal"></section>
 
 
         <section class="About-section" id="ancre2">
@@ -80,8 +80,8 @@
                 <p class="para2">Hello I'm a software developer I can help you build a product, feature or website
                     look through some of my work and experience! if you like what you see and havd a Project
                     you need coded, don't hesitate to contact me.</p>
-                    <div class="connect">LET'S CONNECT</div>
-                
+                <div class="connect">LET'S CONNECT</div>
+
                 <ul>
                     <li><a href=""><img src="./images/github.png" alt="here is the link to github" /></a></li>
                     <li><a href=""><img src="./images/linkedin.jpeg" alt="here is the link to linkedin" /></a></li>
@@ -95,7 +95,8 @@
             <div class="order-2">
                 <ul>
                     <li>
-                        <div class="lang-dropper"><p>Languages</p><img src="./images/dropBtn.png" id="dropBtn1"
+                        <div class="lang-dropper">
+                            <p>Languages</p><img src="./images/dropBtn.png" id="dropBtn1"
                                 alt="here is an drop-down icon">
                         </div>
                     </li>
@@ -127,20 +128,23 @@
                 developing, a feature that you
                 need built or a project that needs coding. I'll do love to help with it
             </div>
-            <form action="https://formspree.io/f/xvolalez" method="post">
+            <form action="https://formspree.io/f/xvolalez" method="post" id="form">
+                
                 <ul>
-                    <li><label for="name"></label><input type="text" name="for-name" id="name"
-                            placeholder="Put your name" maxlength="30" required></li>
+                    <li><label for="name"></label><input type="text" name="for-name" id="name" placeholder="Put your name"
+                        maxlength="30" required></li>
                     <li><label for="mail"></label><input type="email" name="for-mail" id="mail"
-                            placeholder="put your adress email" required>
-                    </li>
+                        placeholder="put your adress email" required></li>
                     <li><label for="textarea"></label><textarea name="for-text" id="textarea" maxlength="500" cols="30"
-                            rows="10" placeholder="Write your message here" required></textarea></li>
-                    <li><button type="button">Get it Touch</button></li>
-                </ul>
+                        rows="10" placeholder="Write your message here" required></textarea></li>
+                        <li><small id="form-Message">Ooups ! The value entered should be in lowercase</small></li> 
+                    <li><button type="submit">Get it Touch</button></li>       
+                </ul>               
+                
             </form>
         </footer>
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>
