@@ -34,54 +34,54 @@ const details = [
   {
     id: 'project-1',
     Image: 'images/img5.png',
-    name: 'Tonic',
-    Description: 'A daily selection of privately personalized roads; no accounts or sign-up required.',
+    name: 'YourCryptoDay',
+    Description: '"YourCryptoDay" is a capstone built with React/redux, and the coinbase API. It helps them to keep an eye on the top trends on the market, crypto prices, and all their details.',
     Technologies: [
-      'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
+      'React-redux', 'API', 'Testing', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
-    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
+    linkTolive: 'https://lively-cendol-a1ffaf.netlify.app',
+    linkTosource: 'https://github.com/AnicetFantomas/YourCryptoDay',
 
-    fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
+    fullDescription: 'YourCryptoDay" is a capstone built with React/redux, and the coinbase API. It helps them to keep an eye on the top trends on the market, crypto prices, and all their details.',
   },
 
   {
     id: 'project-2',
     Image: 'images/img4.png',
-    name: 'Multi-Post Stories',
-    Description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    name: 'Space-travelers',
+    Description: '"Space travelers" is a website for minds attracted and passionate about adventure in space. This project is real live data from the SpaceX API. Your task is to build a web application for a company that provides commercial and scientific space travel services.',
     Technologies: [
-      'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
+      'React-reduc', 'API', 'Testing', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
-    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
-    fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
+    linkTolive: 'https://gorgeous-tanuki-e47e88.netlify.app',
+    linkTosource: 'https://github.com/AnicetFantomas/Space-travelers',
+    fullDescription: '"Space travelers" is a website for minds attracted and passionate about adventure in space. This project is real live data from the SpaceX API. Your task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
   },
 
   {
     id: 'project-3',
     Image: 'images/img1.png',
-    name: 'Facebook 360',
-    Description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    name: 'BookStore',
+    Description: "A single page application (SPA) wich can store, comment, remove and edit a specific book from the list using REST API. This is BookStore app is for all minds fascinated by reading.",
     Technologies: [
-      'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
+      'React-redux', 'Rest-Api', 'SPA', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
-    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
-    fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
+    linkTolive: 'https://helpful-croquembouche-5c6e11.netlify.app',
+    linkTosource: 'https://github.com/AnicetFantomas/Book_Store',
+    fullDescription: 'A single page application (SPA) wich can store, comment, remove and edit a specific book from the list using REST API. This is BookStore app is for all minds fascinated by reading.',
   },
 
   {
     id: 'project-4',
     Image: 'images/im2.png',
-    name: 'Multi-Post Stories',
-    Description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    name: 'Math-Magicians',
+    Description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make some calculations and read some rendom math-related quotes.',
     Technologies: [
-      'html', 'css', 'javaScript', 'github', 'ruby', 'Bootstrap',
+      'ReactJs', 'SPA', 'css', 'github', 'ruby', 'Bootstrap',
     ],
-    linkTolive: 'https://anicetfantomas.github.io/setup-and-mobile-version-skeleton/',
-    linkTosource: 'https://github.com/AnicetFantomas/setup-and-mobile-version-skeleton/settings',
-    fullDescription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus eum consequatur aperiam tempore veniam asperiores a voluptas, deserunt expedita voluptatum et aspernatur sit minus eveniet distinctio recusandae minima ducimus tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit dolor architecto quod repellendus quis rem. Alias, ab ducimus unde laudantium id distinctio corporis, delectus temporibus eos dolor, nesciunt ipsa? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aperiam doloremque, vel nihil eum veritatis repellat saepe culpa possimus totam explicabo expedita porro illum, nulla rem quisquam. Voluptatum, impedit laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque nobis ipsam facilis. Unde ab quae eaque est harum praesentium, a suscipit? Perspiciatis nam illo maiores accusamus eligendi illum adipisci!',
+    linkTolive: 'https://mathmagician9.herokuapp.com/',
+    linkTosource: 'https://github.com/AnicetFantomas/Math_Magicians',
+    fullDescription: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make some calculations and read some rendom math-related quotes.',
   },
 ];
 
