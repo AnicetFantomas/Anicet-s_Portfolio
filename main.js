@@ -33,7 +33,7 @@ listEl.forEach(
 const details = [
   {
     id: 'project-1',
-    Image: 'images/img5.png',
+    Image: 'images/YourCryptoDay.png',
     name: 'YourCryptoDay',
     Description: '"YourCryptoDay" is a capstone built with React/redux, and the coinbase API. It helps them to keep an eye on the top trends on the market, crypto prices, and all their details.',
     Technologies: [
@@ -47,7 +47,7 @@ const details = [
 
   {
     id: 'project-2',
-    Image: 'images/img4.png',
+    Image: 'images/spaceTrav.png',
     name: 'Space-travelers',
     Description: '"Space travelers" is a website for minds attracted and passionate about adventure in space. This project is real live data from the SpaceX API. Your task is to build a web application for a company that provides commercial and scientific space travel services.',
     Technologies: [
@@ -60,7 +60,7 @@ const details = [
 
   {
     id: 'project-3',
-    Image: 'images/img1.png',
+    Image: 'images/BookStoreApp.png',
     name: 'BookStore',
     Description: "A single page application (SPA) wich can store, comment, remove and edit a specific book from the list using REST API. This is BookStore app is for all minds fascinated by reading.",
     Technologies: [
@@ -73,15 +73,41 @@ const details = [
 
   {
     id: 'project-4',
-    Image: 'images/im2.png',
+    Image: 'images/MathMag.png',
     name: 'Math-Magicians',
     Description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make some calculations and read some rendom math-related quotes.',
     Technologies: [
-      'ReactJs', 'SPA', 'css', 'github', 'ruby', 'Bootstrap',
+      'Css', 'SPA', 'ReactJs', 'github', 'ruby', 'Bootstrap',
     ],
     linkTolive: 'https://mathmagician9.herokuapp.com/',
     linkTosource: 'https://github.com/AnicetFantomas/Math_Magicians',
     fullDescription: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make some calculations and read some rendom math-related quotes.',
+  },
+
+  {
+    id: 'project-5',
+    Image: 'images/TvMaze.png',
+    name: 'TV-maze',
+    Description: 'It is a single page application named AniHamzAl based on the names of members in our group. In this application we are fetching the tvMazaAPI to get all the data and displaying it on screen, the data is in the form of movies. The users can like, comments on movies and also can put reservation for future',
+    Technologies: [
+      'Html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstrap',
+    ],
+    linkTolive: 'https://famous-lebkuchen-8dcdb2.netlify.app/',
+    linkTosource: 'https://github.com/AnicetFantomas/Tv-maze',
+    fullDescription: 'It is a single page application named AniHamzAl based on the names of members in our group. In this application we are fetching the tvMazaAPI to get all the data and displaying it on screen, the data is in the form of movies. The users can like, comments on movies and also can put reservation for future',
+  },
+
+  {
+    id: 'project-6',
+    Image: 'images/EndYourDayNfts.png',
+    name: 'End your day with NFTs',
+    Description: 'A web-site that is related to NFTs topic based on Javascript DOM manupilation, html5 and css3 with linters experimentations.',
+    Technologies: [
+      'Html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstrap',
+    ],
+    linkTolive: 'https://precious-toffee-600fae.netlify.app',
+    linkTosource: 'https://github.com/AnicetFantomas/Math_Magicians',
+    fullDescription: 'A web-site that is related to NFTs topic based on Javascript DOM manupilation, html5 and css3 with linters experimentations.',
   },
 ];
 
