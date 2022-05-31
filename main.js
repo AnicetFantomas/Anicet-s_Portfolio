@@ -106,7 +106,7 @@ const details = [
       'Html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstrap',
     ],
     linkTolive: 'https://precious-toffee-600fae.netlify.app',
-    linkTosource: 'https://github.com/AnicetFantomas/Math_Magicians',
+    linkTosource: 'https://github.com/AnicetFantomas/End_your_day_with_NFTs',
     fullDescription: 'A web-site that is related to NFTs topic based on Javascript DOM manupilation, html5 and css3 with linters experimentations.',
   },
 ];
