@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Arvo:wght@700&family=BIZ+UDPGothic:wght@700&family=Josefin+Sans:wght@300;400;700&family=Lobster&family=Merriweather+Sans:ital,wght@1,700&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:wght@600&family=Plus+Jakarta+Sans:wght@800&family=Prompt:wght@300&family=Questrial&family=Radio+Canada:wght@500;600&family=Roboto+Slab&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -89,6 +89,7 @@ h1 {
   font-size: 40px;
   padding-bottom: 20px;
   margin-left: 20px;
+  font-family: 'Archivo', sans-serif;
 }
 
 .work-section {
@@ -155,12 +156,14 @@ h1 {
 h1,
 h2 {
   margin-left: 25px;
+  font-family: 'Archivo', sans-serif;
 }
 
 .lister {
   display: flex;
   font-weight: bold;
   margin: 30px 30px 0 0;
+  align-items: center;
 }
 
 #img-display {
@@ -173,6 +176,7 @@ h2 {
   border-radius: 50%;
   background-color: rgba(46, 85, 46, 0.76);
   margin: 9px 10px;
+  align-self: center;
 }
 
 ul,
@@ -187,7 +191,6 @@ a {
 }
 
 .html-btn {
-  width: 70px;
   background-color: #ebebebff;
   font-weight: 500;
   height: 33px;
@@ -209,7 +212,6 @@ a {
 }
 
 .css-btn {
-  width: 50px;
   background-color: #ebebebff;
   font-weight: 500;
   height: 33px;
@@ -230,7 +232,6 @@ a {
   height: 33px;
   border-radius: 10px;
   padding-left: 10px;
-  width: 120px;
   display: flex;
   align-items: center;
 }
@@ -247,7 +248,7 @@ a {
   border-radius: 10px;
   margin: 20px;
   display: flex;
-  align-items: center;
+  align-content: center;
 }
 
 .to-project:hover {
@@ -468,362 +469,4 @@ form button:hover:active {
   visibility: hidden;
   font-weight: bold;
 }
-
-/* ---------------------- pop-up-window --------------------------------- */
-
-.main-for-pop-up {
-  background-color: rgba(177, 177, 199, 0.438);
-  backdrop-filter: blur(5px);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1000;
-  padding-top: 50px;
-  overflow: scroll;
-}
-
-.pop-up-window {
-  background-color: #fff;
-  width: 85%;
-  height: auto;
-  border-radius: 15px;
-  border: 1px solid rgb(109, 131, 109);
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  position: relative;
-}
-
-.pop-up-window .lister {
-  position: relative;
-  right: 30px;
-  bottom: 20px;
-  left: 15px;
-}
-
-.pop-up-window h2 {
-  margin-top: 20px;
-  font-size: 40px;
-}
-
-.for-img img {
-  width: 100%;
-}
-
-.for-img {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.for-tech-para {
-  display: flex;
-  align-items: flex-start;
-  padding: 50px 0;
-}
-
-.for-technologies {
-  margin-left: 20px;
-  margin-right: 30px;
-}
-
-hr {
-  margin-top: 40px;
-  width: 90%;
-  margin-left: 10px;
-  color: rgba(255, 255, 255, 0.753);
-}
-
-.github-btn {
-  background-color: #ebebebff;
-  height: 33px;
-  border-radius: 10px;
-  padding-left: 10px;
-  width: 85px;
-  display: flex;
-  align-items: center;
-}
-
-.github-btn:hover {
-  background-color: skyblue;
-  transition: all ease 2s;
-}
-
-.ruby-btn {
-  background-color: #ebebebff;
-  height: 33px;
-  border-radius: 10px;
-  padding-left: 10px;
-  width: 70px;
-  display: flex;
-  align-items: center;
-}
-
-.ruby-btn:hover {
-  background-color: skyblue;
-  transition: all ease 2s;
-}
-
-.bootstrap-btn {
-  background-color: #ebebebff;
-  height: 33px;
-  border-radius: 10px;
-  padding-left: 10px;
-  width: 110px;
-  display: flex;
-  align-items: center;
-}
-
-.bootstrap-btn:hover {
-  background-color: skyblue;
-  transition: all ease 2s;
-}
-
-.for-live {
-  display: flex;
-  margin-top: 40px;
-}
-
-.see-live {
-  border: 1px solid blue;
-  height: 45px;
-  width: 140px;
-  border-radius: 10px;
-  margin: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.see-live:hover {
-  background-color: skyblue;
-  transition: all ease 2s;
-}
-
-.see-live img {
-  margin-left: 8px;
-}
-
-.see-item2 {
-  width: 170px;
-}
-
-.githubBlue {
-  width: 25px;
-  height: 25px;
-}
-
-/* -------------------Media queries------------------ */
-
-@media screen and (min-width: 992px) {
-  body {
-    width: 100%;
-    display: flex;
-  }
-
-  .x-nav {
-    display: none;
-  }
-
-  .main-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    background-color: #f7f7f9;
-  }
-
-  .wrapper {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    margin: 0;
-    align-self: center;
-    border-radius: 0 0 0 90px;
-  }
-
-  .head-lines {
-    padding: 150px;
-    font-weight: bold;
-  }
-
-  .desktop-nav {
-    margin: 0;
-    display: block;
-  }
-
-  .p-desktop {
-    padding: 30px;
-  }
-
-  .menu-line {
-    display: none;
-  }
-
-  .work-section {
-    background-size: 100%;
-    align-self: center;
-    width: 90%;
-    grid-template-columns: 950px;
-  }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    height: 460px;
-  }
-
-  .container2 .Card1 {
-    order: 1;
-  }
-
-  .container4 .Card1 {
-    order: 1;
-  }
-
-  .Card1 img {
-    width: 450px;
-    height: 400px;
-    margin: 10px;
-  }
-
-  #para1 {
-    margin-top: 50px;
-  }
-
-  .About-section {
-    width: 100%;
-    padding: 65px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .order-1 {
-    width: 40%;
-  }
-
-  .order-2 {
-    width: 60%;
-  }
-
-  .lang-dropper {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  }
-
-  .frame {
-    width: 600px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .Contact-form {
-    background-size: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-content {
-    width: 400px;
-    color: rgb(245, 223, 223);
-  }
-
-  .lang {
-    width: 130px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px 0 0 20px;
-    margin: 7px;
-  }
-
-  form ul {
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-
-  .lang-flex {
-    display: flex;
-    margin-left: 20px;
-  }
-
-  #buttonForClose {
-    left: 90%;
-  }
-}
-
-@media screen and (max-width: 865px) {
-  .desktop-nav {
-    background-color: rgba(0, 0, 255, 0.438);
-    backdrop-filter: blur(10px);
-    position: absolute;
-    position: fixed;
-    right: 0;
-    top: 0;
-    display: none;
-    width: 100%;
-    height: 100%;
-  }
-
-  .contact-content {
-    width: 250px;
-    color: rgb(245, 223, 223);
-    margin: 0 auto;
-  }
-
-  .desktop-nav ul {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 30px;
-  }
-
-  .desktop-nav ul a {
-    color: white;
-    font-size: 32px;
-  }
-
-  .for-tech-para {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .for-technologies ul:nth-child(2) {
-    display: none;
-  }
-
-  .for-live {
-    position: relative;
-    right: 15px;
-    left: 15px;
-  }
-
-  .for-icon img {
-    width: 25px;
-    height: 25px;
-    margin-top: 0;
-  }
-
-  .pop-up-window .lister p {
-    margin-bottom: 15px;
-  }
-
-  .pop-up-window .for-para p {
-    font-size: 18px;
-    margin-right: 20px;
-  }
-
-  #form-Message {
-    width: 50%;
-    margin-left: 30px;
-  }
 }

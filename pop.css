@@ -84,6 +84,7 @@
   width: 140px;
   border-radius: 10px;
   margin: 10px;
+  align-content: center;
 }
 
 .see-live img {

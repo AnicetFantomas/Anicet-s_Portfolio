@@ -51,7 +51,7 @@ const details = [
     name: 'Space-travelers',
     Description: '"Space travelers" is a website for minds attracted and passionate about adventure in space. This project is real live data from the SpaceX API. Your task is to build a web application for a company that provides commercial and scientific space travel services.',
     Technologies: [
-      'React-reduc', 'API', 'Testing', 'github', 'ruby', 'Bootstrap',
+      'React-redux', 'API', 'Testing', 'github', 'ruby', 'Bootstrap',
     ],
     linkTolive: 'https://gorgeous-tanuki-e47e88.netlify.app',
     linkTosource: 'https://github.com/AnicetFantomas/Space-travelers',
@@ -77,7 +77,7 @@ const details = [
     name: 'Math-Magicians',
     Description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make some calculations and read some rendom math-related quotes.',
     Technologies: [
-      'Css', 'SPA', 'ReactJs', 'github', 'ruby', 'Bootstrap',
+      'ReactJs', 'SPA', 'css', 'github', 'ruby', 'Bootstrap',
     ],
     linkTolive: 'https://mathmagician9.herokuapp.com/',
     linkTosource: 'https://github.com/AnicetFantomas/Math_Magicians',
@@ -127,9 +127,9 @@ Array.from(mainWorkSection.children).forEach((child, index) => {
       <div class="lister">
           <p><strong>CANOPY</strong></p>
           <div class="point"></div>
-          <P>Back End Dev</P>
+          <P>Full-stack Dev</P>
           <div class="point"></div>
-          <p>2015</p>
+          <p>2022</p>
       </div>
       <p class="para001" id="para1">${details[index].Description}</p>
       <ul>
