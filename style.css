@@ -332,15 +332,23 @@ a {
 .lang-dropper {
   margin-left: 25px;
   font-weight: bold;
+  width: 60%;
   color: rgb(23, 43, 77);
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-img {
+  width: 70px;
+  margin-bottom: 10px;
 }
 
 #dropBtn1 {
   width: 20px;
   height: 15px;
   margin-top: 7px;
-  margin-left: 150px;
   font-weight: bold;
+  display: none;
 }
 
 #dropBtn02 {
