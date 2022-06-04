@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Arvo:wght@700&family=BIZ+UDPGothic:wght@700&family=Josefin+Sans:wght@300;400;700&family=Lobster&family=Merriweather+Sans:ital,wght@1,700&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:wght@600&family=Plus+Jakarta+Sans:wght@800&family=Prompt:wght@300&family=Questrial&family=Radio+Canada:wght@500;600&family=Roboto+Slab&family=Rubik:wght@700&family=Source+Serif+Pro:wght@600&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -83,7 +84,6 @@ p {
 }
 
 h1 {
-  font-family: Poppins, sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 40px;
@@ -284,6 +284,8 @@ a {
   border-radius: 7px;
   font-weight: bold;
   color: rgb(23, 43, 77);
+  display: flex;
+  justify-content: space-between;
 }
 
 .get {
@@ -342,17 +344,16 @@ a {
 }
 
 #dropBtn02 {
-  width: 15px;
+  width: 25px;
   height: 20px;
   margin-top: 7px;
-  margin-left: 150px;
 }
 
 #dropBtn2 {
-  width: 15px;
+  width: 25px;
   height: 20px;
   margin-top: 7px;
-  margin-left: 150px;
+  align-self: start;
 }
 
 #span {
